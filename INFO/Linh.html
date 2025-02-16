@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin về Linh</title>
+    <link rel="stylesheet" href="Linh.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thông tin về Linh Iu Dấuuu💖</h1>
+        
+        <div class="info-card">
+            <div class="info-item">
+                <h3>🎓 Trường học</h3>
+                <p>Đại học Khoa học Xã hội và Nhân văn - ĐHQG Hà Nội</p>
+            </div>
+
+            <div class="info-item">
+                <h3>📚 Chuyên ngành</h3>
+                <p>Chính trị học</p>
+            </div>
+
+            <div class="info-item">
+                <h3>📚 Ngôn ngữ</h3>
+                <p>Tiếng Việt</p>
+                <p>Tiếng Anh</p>
+            </div>
+
+            <div class="info-item">
+                <h3>🏠 Sống tại</h3>
+                <p>Hà Nội</p>
+            </div>
+            
+            <div class="info-item">
+                <h3>🏡 Quê quán</h3>
+                <p>Hòa Bình</p>
+            </div>
+
+            
+            <div class="info-item" id="birthday-item">
+                <h3>🎂 Sinh nhật</h3>
+                <p>10 tháng 11, 2006</p>
+            </div>
+            
+            <div class="info-item">
+                <h3>♏ Cung hoàng đạo</h3>
+                <p>Bọ Cạp</p>
+            </div>
+            
+            <div class="info-item">
+                <h3>🎬 Sở thích</h3>
+                <p>Xem phim</p>
+            </div>
+            
+            <div class="info-item">
+                <h3>🌻 Hoa yêu thích</h3>
+                <p>Hoa hướng dương</p>
+            </div>
+            
+            <div class="info-item">
+                <h3>🎨 Màu sắc ưa thích</h3>
+                <p>Trắng</p>
+            </div>
+
+            <div class="info-item">
+                <h3>Đang tìm hiểu</h3>
+                <p>...</p>
+            </div>
+
+            
+        </div>
+
+        <!-- Thêm modal calendar -->
+        <div id="birthdayModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>🎂 Sinh nhật của Linh</h2>
+                <div class="calendar">
+                    <div class="calendar-header">
+                        <button id="prevMonth">&lt;</button>
+                        <h3 id="monthDisplay"></h3>
+                        <button id="nextMonth">&gt;</button>
+                    </div>
+                    <div class="weekdays">
+                        <div>CN</div>
+                        <div>T2</div>
+                        <div>T3</div>
+                        <div>T4</div>
+                        <div>T5</div>
+                        <div>T6</div>
+                        <div>T7</div>
+                    </div>
+                    <div id="calendar-days" class="days"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Đặt script ở cuối body -->
+    <script src="Linh.js"></script>
+</body>
+</html>
